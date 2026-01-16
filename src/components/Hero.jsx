@@ -10,7 +10,7 @@ export default function Hero() {
 
       <div className="container" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem', alignItems: 'center' }}>
         <div className="hero-text animate-fade-in">
-          <img src="/images/logo-amazole.png" alt="AmazoLé Logo" style={{ width: '180px', marginBottom: '2rem', mixBlendMode: 'multiply' }} />
+          <img src="/images/logo-amazole.png" alt="AmazoLé Logo" style={{ width: '220px', marginBottom: '2rem', mixBlendMode: 'multiply' }} />
           <span style={{ background: 'rgba(46, 139, 87, 0.1)', color: 'var(--primary)', padding: '0.5rem 1rem', borderRadius: '20px', fontWeight: 'bold', fontSize: '0.9rem', marginBottom: '1.5rem', display: 'inline-block' }}>✨ Chegou o momento de brilhar</span>
           <h1 style={{ fontSize: '3.5rem', lineHeight: '1.1', marginBottom: '1.5rem' }}>
             Chegue no Carnaval com a Pele dos Sonhos: <span className="gradient-text">Lisinha & Sem Manchas!</span>
