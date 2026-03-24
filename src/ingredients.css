@@ -1,0 +1,52 @@
+.ingredient-card {
+  background: #3B2113; /* Dark brown from reference */
+  border-radius: 100px 100px 10px 10px; /* Arch top */
+  padding: 10px 20px 30px 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: visible;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.ingredient-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.ingredient-img-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #D4AF37; /* Gold border */
+  overflow: hidden;
+  margin: -50px auto 20px auto; /* Pull up to overlap */
+  background: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.ingredient-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ingredient-title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #D4AF37;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.ingredient-desc {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #E2E8F0;
+}
